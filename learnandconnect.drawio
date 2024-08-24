@@ -397,7 +397,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tCt0kMa-uhs3J7lHPsY3" name="Séquence authentification">
-    <mxGraphModel dx="2100" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1300" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -472,35 +472,11 @@
             <mxPoint x="145" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_ncQsbs0sKS_SDucsMs--18" value="Click sur la page création de ticket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.003;exitY=0.841;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_ncQsbs0sKS_SDucsMs--8" target="_ncQsbs0sKS_SDucsMs--1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="150" y="550" as="sourcePoint" />
-            <mxPoint x="230" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_ncQsbs0sKS_SDucsMs--19" value="Redirige vers la page création de ticket" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=-0.176;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="446.76" y="580" as="sourcePoint" />
-            <mxPoint x="145" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_ncQsbs0sKS_SDucsMs--20" value="Remplie et soumet le ticket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.122;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.176;exitY=0.943;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="145" y="600.0000000000001" as="sourcePoint" />
-            <mxPoint x="447.98" y="600.38" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_ncQsbs0sKS_SDucsMs--21" value="Valide et envoi une notification" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="_ncQsbs0sKS_SDucsMs--8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="620" as="sourcePoint" />
-            <mxPoint x="370" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Séquence création ticket" id="P2jr9gFuOy9lSrI1pDkr">
-    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1820" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="bUVYNmFm81rBvsgjZ13e-0" />
         <mxCell id="bUVYNmFm81rBvsgjZ13e-1" parent="bUVYNmFm81rBvsgjZ13e-0" />
@@ -513,7 +489,7 @@
         <mxCell id="bUVYNmFm81rBvsgjZ13e-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bUVYNmFm81rBvsgjZ13e-2">
           <mxGeometry x="50" y="240" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-5" value="Vérifie les informations" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-2" target="bUVYNmFm81rBvsgjZ13e-4">
+        <mxCell id="bUVYNmFm81rBvsgjZ13e-5" value="Vérifie les validations" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-2" target="bUVYNmFm81rBvsgjZ13e-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="220" as="sourcePoint" />
             <Array as="points">
@@ -539,84 +515,71 @@
             <mxPoint x="230" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-11" value="Retourne un formulaire de connexion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.086;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1" source="bUVYNmFm81rBvsgjZ13e-3" target="bUVYNmFm81rBvsgjZ13e-8">
+        <mxCell id="bUVYNmFm81rBvsgjZ13e-11" value="Retourne un formulaire de création de ticket" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.086;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1" source="bUVYNmFm81rBvsgjZ13e-3" target="bUVYNmFm81rBvsgjZ13e-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="240" as="sourcePoint" />
             <mxPoint x="180" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bUVYNmFm81rBvsgjZ13e-12" value="Boucle" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="bUVYNmFm81rBvsgjZ13e-1">
-          <mxGeometry x="155" y="250" width="300" height="280" as="geometry" />
+          <mxGeometry x="155" y="250" width="300" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-13" value="Remplie et envoi le formulaire" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.92;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1" target="bUVYNmFm81rBvsgjZ13e-3">
+        <mxCell id="bUVYNmFm81rBvsgjZ13e-13" value="Remplie et soumet le ticket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.92;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1" target="bUVYNmFm81rBvsgjZ13e-3">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="155" y="300" as="sourcePoint" />
             <mxPoint x="235.8" y="301.3" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bUVYNmFm81rBvsgjZ13e-14" value="Condition" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="bUVYNmFm81rBvsgjZ13e-1">
-          <mxGeometry x="155" y="360" width="300" height="160" as="geometry" />
+          <mxGeometry x="155" y="360" width="300" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-15" value="Si information non correcte" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="bUVYNmFm81rBvsgjZ13e-1">
+        <mxCell id="bUVYNmFm81rBvsgjZ13e-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Si&amp;nbsp;&lt;span style=&quot;text-align: left; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;validation&amp;nbsp;&lt;/span&gt;non correcte&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="bUVYNmFm81rBvsgjZ13e-1">
           <mxGeometry x="160" y="395" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-16" value="Si information correcte" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="bUVYNmFm81rBvsgjZ13e-1">
+        <mxCell id="bUVYNmFm81rBvsgjZ13e-16" value="Si&amp;nbsp;&lt;span style=&quot;text-align: left; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;validation&amp;nbsp;&lt;/span&gt;correcte" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="bUVYNmFm81rBvsgjZ13e-1">
           <mxGeometry x="160" y="440" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-17" value="Retourne la page connexion avec les informations d’erreur" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.07;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1">
+        <mxCell id="bUVYNmFm81rBvsgjZ13e-17" value="Retourne le formulaire avec les informations d’erreur" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.07;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="444.3" y="439.76000000000005" as="sourcePoint" />
             <mxPoint x="145.00000000000006" y="439.76000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-18" value="Redirige vers la page d&#39;accueil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.07;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1">
+        <mxCell id="bUVYNmFm81rBvsgjZ13e-20" value="Redirige vers la page accueil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=-0.176;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="445" y="490" as="sourcePoint" />
-            <mxPoint x="145" y="490" as="targetPoint" />
+            <mxPoint x="446.76" y="540" as="sourcePoint" />
+            <mxPoint x="145" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-19" value="Click sur la page création de ticket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.003;exitY=0.841;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1" source="bUVYNmFm81rBvsgjZ13e-9" target="bUVYNmFm81rBvsgjZ13e-2">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="150" y="550" as="sourcePoint" />
-            <mxPoint x="230" y="550" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="zooTE0MZ8YgJS6uTksvr-0" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="bUVYNmFm81rBvsgjZ13e-1">
+          <mxGeometry x="450" y="490" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-20" value="Redirige vers la page création de ticket" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=-0.176;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1">
+        <mxCell id="zooTE0MZ8YgJS6uTksvr-1" value="&lt;span style=&quot;text-align: center;&quot;&gt;Envoi une notification de création de ticket&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="zooTE0MZ8YgJS6uTksvr-0" parent="bUVYNmFm81rBvsgjZ13e-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="446.76" y="580" as="sourcePoint" />
-            <mxPoint x="145" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-21" value="Remplie et soumet le ticket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.122;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.176;exitY=0.943;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="145" y="600.0000000000001" as="sourcePoint" />
-            <mxPoint x="447.98" y="600.38" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bUVYNmFm81rBvsgjZ13e-22" value="Valide et envoi une notification" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="bUVYNmFm81rBvsgjZ13e-1" target="bUVYNmFm81rBvsgjZ13e-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="620" as="sourcePoint" />
-            <mxPoint x="370" y="620" as="targetPoint" />
+            <mxPoint x="455" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="485" y="500" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Séquence envoi notifications" id="AgJBSZWgfWhjdXeJ4DIB">
-    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Séquence envoi réponse" id="AgJBSZWgfWhjdXeJ4DIB">
+    <mxGraphModel dx="910" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GgtPiz-whVwN7mXvJ0hS-0" />
         <mxCell id="GgtPiz-whVwN7mXvJ0hS-1" parent="GgtPiz-whVwN7mXvJ0hS-0" />
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-2" value=":Système" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-0" value=":Système" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
           <mxGeometry x="400" y="80" width="100" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-2">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="ZMwqYLzNtlVcH1reJi-A-0">
           <mxGeometry x="45" y="120" width="10" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-2">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ZMwqYLzNtlVcH1reJi-A-0">
           <mxGeometry x="50" y="240" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-5" value="Vérifie les informations" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-2" target="GgtPiz-whVwN7mXvJ0hS-4">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-3" value="Vérifie les validations" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="ZMwqYLzNtlVcH1reJi-A-0" target="ZMwqYLzNtlVcH1reJi-A-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="220" as="sourcePoint" />
             <Array as="points">
@@ -624,82 +587,69 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-6" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-2">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-4" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="ZMwqYLzNtlVcH1reJi-A-0">
           <mxGeometry x="35" y="540" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-7" value="Utilisateur" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-5" value="Utilisateur" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
           <mxGeometry x="100" y="30" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
           <mxGeometry x="140" y="80" width="20" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
           <mxGeometry x="145" y="200" width="10" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-10" value="Demande de formulaire" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1" target="GgtPiz-whVwN7mXvJ0hS-2">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-8" value="Demande de formulaire de réponse" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1" target="ZMwqYLzNtlVcH1reJi-A-0">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="150" y="200" as="sourcePoint" />
             <mxPoint x="230" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-11" value="Retourne un formulaire de connexion" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.086;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1" source="GgtPiz-whVwN7mXvJ0hS-3" target="GgtPiz-whVwN7mXvJ0hS-8">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-9" value="Retourne un formulaire de réponse au ticket" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.086;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1" source="ZMwqYLzNtlVcH1reJi-A-1" target="ZMwqYLzNtlVcH1reJi-A-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="240" as="sourcePoint" />
             <mxPoint x="180" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-12" value="Boucle" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
-          <mxGeometry x="155" y="250" width="300" height="280" as="geometry" />
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-10" value="Boucle" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+          <mxGeometry x="155" y="250" width="300" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-13" value="Remplie et envoi le formulaire" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.92;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1" target="GgtPiz-whVwN7mXvJ0hS-3">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-11" value="Remplie et soumet la réponse" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.92;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1" target="ZMwqYLzNtlVcH1reJi-A-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="155" y="300" as="sourcePoint" />
             <mxPoint x="235.8" y="301.3" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-14" value="Condition" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
-          <mxGeometry x="155" y="360" width="300" height="160" as="geometry" />
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-12" value="Condition" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+          <mxGeometry x="155" y="360" width="300" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-15" value="Si information non correcte" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-13" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Si&amp;nbsp;&lt;span style=&quot;text-align: left; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;validation&amp;nbsp;&lt;/span&gt;non correcte&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
           <mxGeometry x="160" y="395" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-16" value="Si information correcte" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-14" value="Si&amp;nbsp;&lt;span style=&quot;text-align: left; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;validation&amp;nbsp;&lt;/span&gt;correcte" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
           <mxGeometry x="160" y="440" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-17" value="Retourne la page connexion avec les informations d’erreur" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.07;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-15" value="Retourne le formulaire avec les informations d’erreur" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.07;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="444.3" y="439.76000000000005" as="sourcePoint" />
             <mxPoint x="145.00000000000006" y="439.76000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-18" value="Redirige vers la page d&#39;accueil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.07;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-16" value="Redirige vers la page accueil" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=-0.176;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="445" y="490" as="sourcePoint" />
-            <mxPoint x="145" y="490" as="targetPoint" />
+            <mxPoint x="446.76" y="540" as="sourcePoint" />
+            <mxPoint x="145" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-19" value="Click sur la page création de ticket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.003;exitY=0.841;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1" source="GgtPiz-whVwN7mXvJ0hS-9" target="GgtPiz-whVwN7mXvJ0hS-2">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="150" y="550" as="sourcePoint" />
-            <mxPoint x="230" y="550" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+          <mxGeometry x="450" y="490" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-20" value="Redirige vers la page création de ticket" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=-0.176;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
+        <mxCell id="ZMwqYLzNtlVcH1reJi-A-18" value="&lt;span style=&quot;text-align: center;&quot;&gt;Envoi une notification de réponse&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1" target="ZMwqYLzNtlVcH1reJi-A-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="446.76" y="580" as="sourcePoint" />
-            <mxPoint x="145" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-21" value="Remplie et soumet le ticket" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0.122;entryY=0.901;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.176;exitY=0.943;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="145" y="600.0000000000001" as="sourcePoint" />
-            <mxPoint x="447.98" y="600.38" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GgtPiz-whVwN7mXvJ0hS-22" value="Valide et envoi une notification" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="GgtPiz-whVwN7mXvJ0hS-1" target="GgtPiz-whVwN7mXvJ0hS-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="620" as="sourcePoint" />
-            <mxPoint x="370" y="620" as="targetPoint" />
+            <mxPoint x="455" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="485" y="500" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
